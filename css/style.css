@@ -2,7 +2,7 @@
 
 }
 
-/* Estilos de la bara navegacion*/
+/* Estilos de la barra navegacion*/
 
 section img.logo{
     display: flex;
@@ -168,14 +168,15 @@ section.frase :hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #c61313;
+    margin-bottom: 20%;
 }
     
 .card {
-    margin-top: 5%;
+    margin: 5em;
     text-align: center;  
-   
+
 }
 
 .card-body {
@@ -210,26 +211,66 @@ section.frase :hover {
 }
   
 a.btn.btn-primary:hover {
-    background-color: #ce1414; /* Color de fondo verde oscuro */
-    box-shadow: 0px 12px 20px rgba(0,0,0,0.4); /* Sombra más pronunciada */
+    background-color: #ce1414; 
+    box-shadow: 0px 12px 20px rgba(0,0,0,0.4);
+    
   }
 
 
 /*Estilos de la pagina Pedidos*/
 
-.fondo-de-pedidos{
+.fondo-de-pedidos {
+    display: flex;
     background-image: url(../assets/pedido.png);
-    width: 1333px;
-    height: 1333px;
-    color:#e9e3dc;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+   
+
     
-.fondo-de-pedidos div button{
-    width: 7em;
-    height: 5em;
+.contenedor-pedido{
+    width: 30%;
+    height: 40%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    border: 1px solid rgb(120, 7, 7); 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); 
+  }
+
+.title-pedido {
+    text-align: center;
+    color: #e9e3dc;
+}
+
+.btn-domicilio {
+    background-color: #f75860; 
+    border: none;
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; 
+    
+    border-radius: 8px; 
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    
+}
+
+.btn-domicilio :hover{
+    background-color: #ce1414; 
+    box-shadow: 0px 12px 20px rgba(0,0,0,0.4); 
+    color: #e9e3dc;
+    
+
 }
 
 /*Estilos de la pagina Sucursales*/
+
 .fondo-de-sucursales {
     background-color: #c61313;
     color:#e9e3dc;
