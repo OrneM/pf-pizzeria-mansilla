@@ -1,0 +1,259 @@
+*{font-family:'Lato', sans-serif;
+
+}
+
+/* Estilos de la bara navegacion*/
+
+section img.logo{
+    display: flex;
+    width: 7rem;
+    height: auto;
+   
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navegacion{
+    background-color:#c61313; 
+}
+
+
+
+.paginas{
+    display:flex;
+    align-items: flex-end;
+}
+
+.navbar-brand{
+    margin: 0%;
+}
+
+.navbar-nav {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.navbar-nav a {
+    color:#e9e3dc;
+    border:solid;
+    border-color: #520202;
+   
+}
+
+.navbar-expand-lg .navbar-collapse {
+    /*display: flex!important;*/
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+
+.navbar-toggler{
+
+    flex-basis: auto;
+    justify-content: flex-end;
+    margin-bottom: 3%;
+
+} 
+
+.navbar-nav a.nav-link.active{
+    color:#eeeceb;
+    background-color: rgba(85, 4, 4, 0.5);
+  
+    
+}
+
+a.nav-link:hover{
+    color:#eeeceb;
+    background-color: #9e0808;
+}
+
+
+.paginas ul li{ 
+    display:flex;
+    list-style-type: none;
+    font-size: 1em;
+    color:#e9e3dc;
+    width: 7em;
+    justify-content: space-evenly;
+}
+
+.paginas ul{
+    display: flex;
+  
+   
+}
+
+/*Estilos de la pagina Inicio*/
+
+.inicio {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    background-color: #c61313;
+    align-items: center;
+    
+}
+
+
+section.descripcion{ 
+    display: flex;
+    background-color:#c61313; 
+    color:#e9e3dc;
+    text-align: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3%;
+    width: 50%;
+
+}
+
+.frase{ 
+    display: flex;
+    background-color:#c61313; 
+    color:#e9e3dc;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding-top: 3%;
+    padding-bottom:3%;
+    padding-right:2%;
+    padding-left: 2%;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 20%;
+}
+
+section.descripcion :hover {
+    transform: scale(1.05);
+  }
+
+section.frase :hover {
+    transform: scale(1.05);
+  }
+
+
+
+.titulo{
+    display: flex;
+    padding-top: 3%;
+    padding-bottom:3%;
+    padding-right:2%;
+    padding-left: 2%;
+    justify-content: center;
+    width: 50%;
+}
+
+
+/*Estilos de la pagina Menú*/
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #c61313;
+}
+    
+.card {
+    margin-top: 5%;
+    text-align: center;  
+   
+}
+
+.card-body {
+    padding: 5%;
+
+
+}
+
+.card-img-top {
+    border-radius:3% ;
+}
+
+
+.card :hover {
+    transform: scale(1.03);
+  }
+
+.btn{
+    background-color: #f75860; 
+    border: none;
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; 
+    
+    border-radius: 8px; 
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+
+}
+  
+a.btn.btn-primary:hover {
+    background-color: #ce1414; /* Color de fondo verde oscuro */
+    box-shadow: 0px 12px 20px rgba(0,0,0,0.4); /* Sombra más pronunciada */
+  }
+
+
+/*Estilos de la pagina Pedidos*/
+
+.fondo-de-pedidos{
+    background-image: url(../assets/pedido.png);
+    width: 1333px;
+    height: 1333px;
+    color:#e9e3dc;
+}
+    
+.fondo-de-pedidos div button{
+    width: 7em;
+    height: 5em;
+}
+
+/*Estilos de la pagina Sucursales*/
+.fondo-de-sucursales {
+    background-color: #c61313;
+    color:#e9e3dc;
+}
+
+.fondo-de-sucursales iframe {
+
+    width: 50em; 
+    height: 40em; 
+}
+
+/*Estilos de la pagina Contactos*/
+
+.fondo-de-contacto {
+    background-image: url(../assets/contacto.jpg);
+    background-size: cover;
+    color:#e9e3dc; 
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+}
