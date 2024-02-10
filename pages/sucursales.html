@@ -38,29 +38,27 @@
 
 
     <main class="fondo-de-sucursales">
+        <div class="ratio ratio-4x3" >
+            <iframe class= "mapa-sucursales rounded-3"src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13132.400370155441!2d-58.588669749999994!3d-34.6269108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1707537574166!5m2!1ses-419!2sar" width="40%" height="40%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa" allowfullscreen ></iframe>
+        </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38772.84520642569!2d-74.00646068038105!3d40.712776289354265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25903ce155493%3A0xb3f5d7f66c238450!2sNew%20York%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1641505442792!5m2!1ses-419!2smx"
-        allowfullscreen></iframe>
-
-        <h1>Encontrá tu sucursal mas cercana</h1>
+        <section class="formulario-sucursal">
+            <h1>Encontrá tu sucursal mas cercana</h1>
             <div>
-                <form action="sucursal">
-                    <label for="lang">PROVINCIA</label>
-                    <select name="PROVINCIA" id="lang">
-                    <option value="buenos aires">BUENOS AIRES</option>
-                    <option value="entre rios">ENTRE RIOS</option>
-                    <option value=" santa fe">SANTA FE</option>
-                  
-                    <input type="submit" value="Buscar" />
-                </form>
-            </div>
+                <select class="form-select" aria-label="Default select">
+                    <option selected>Elegí tu localidad</option>
+                    <option class="select-localidad" value="1">CABA</option>
+                    <option class="select-localidad" value="2">Morón</option>
+                    <option class="select-localidad" value="3">La Matanza</option>
+                    <input type="submit" class="btn-sucursal" value="Buscar"></button>
+                  </select>
+             </div>
+        </section>
 
     </main>
 
     <footer>
-       
-        
-        <div class="pie-pagina">
+       <div class="pie-pagina">
             <aside class="contenedor-pie">
                 <h5>Encontranos</h5>
                 <p>Sede central: Avenida Siempreviva 742, Buenos Aires</p>
@@ -68,31 +66,25 @@
             <aside class="contenedor-pie">
                 <h5>Comunicate</h5>
                 <p> Teléfono: (123) 456-7890 |  Email: contacto@fauget.com </p>
-                
             </aside>
             <aside class="contenedor-pie">
                 <h5>Seguinos</h5>
                 <div class="mb-1">
-                    <a href="https://www.instagram.com/">
-                    <img src="../assets/redes2.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"></a>
+                    <a class="social" href="https://www.instagram.com/">
+                    <img src="../assets/redes2.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">@fauget_Gourmet</a>
                 </div>
                 <div>
-                    <a href="https://www.facebook.com/">
-                    <img src="../assets/redes3.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"></a>
+                    <a class="social" href="https://www.facebook.com/">
+                    <img src="../assets/redes3.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> Fauget Gourmet</a>
                 </div>
             </aside>
-
-
-
-
+  
         </div>
 
         <div class="copyright">
             <p> 2024 FunCode. Todos los derechos reservados.</p>
         </div>
-
-
-    </footer>
+     </footer>
     
 
      <!-- script bs -->

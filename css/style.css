@@ -139,6 +139,7 @@ section.descripcion{
     justify-content: center;
     width: 50%;
     margin-bottom: 20%;
+    font-size:large ;
 }
 
 section.descripcion :hover {
@@ -194,7 +195,7 @@ section.frase :hover {
     transform: scale(1.03);
   }
 
-.btn-primary{
+.btn-pizzeria{
     background-color:  #ce1414; 
     border: none;
     color: white; 
@@ -204,17 +205,21 @@ section.frase :hover {
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s; 
-    
     border-radius: 8px; 
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    margin-top: 4%;
+    border: 1px rgb(82, 2, 2, 0.5) solid;
 
 }
   
-.btn-primary:hover {
+.btn-pizzeria:hover {
     background-color: #ad0009; 
     box-shadow: 0px 12px 20px rgba(0,0,0,0.4);
+    color: #f7f6f4;
     
   }
+
+  
 
 
 /*Estilos de la pagina Pedidos*/
@@ -257,13 +262,61 @@ section.frase :hover {
 .fondo-de-sucursales {
     background-color: #c61313;
     color:#e9e3dc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
-.fondo-de-sucursales iframe {
 
-    width: 50em; 
-    height: 40em; 
+.formulario-sucursal {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(120, 7, 7); 
+    border-radius: 10px; 
+    padding: 3%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    background-color: rgb(198, 19, 19,0.75); 
+    width: 40%;
+   
+
 }
+
+
+
+.btn-sucursal {
+    background-color:  #ce1414; 
+    border: none;
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; 
+    border-radius: 8px; 
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    margin-top: 4%;
+    border: 1px rgb(82, 2, 2, 0.5) solid;
+  
+}
+
+.btn-sucursal:hover {
+    background-color: #ad0009; 
+    box-shadow: 0px 12px 20px rgba(0,0,0,0.4);
+      
+  }
+
+
+  .ratio {
+    width: 40%;
+   
+ 
+  }
+
+
 
 /*Estilos de la pagina Contactos*/
 
@@ -281,16 +334,16 @@ section.frase :hover {
     margin-top: 5%;
     margin-bottom: 5%;
     border: 1px solid rgb(120, 7, 7); 
-    border-radius: 11%; 
+    border-radius: 5%; 
     padding: 10%;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); 
-    background-color: rgb(198, 19, 19, 0.3);
+    background-color: rgba(224, 29, 29, 0.841);
     font-weight: bold;
    
 }
 
 
-
+/*Estilos de footer*/
 
 
 .pie-pagina{
@@ -305,6 +358,10 @@ section.frase :hover {
     border-top: 1px solid #5a0000;
     
     
+}
+
+.social{
+    color: #eeeceb;
 }
 
 .contenedor-pie {
