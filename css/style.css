@@ -175,6 +175,7 @@ section.frase :hover {
 }
     
 .card {
+    width: 18rem;
     margin: 5em;
     text-align: center;  
 
@@ -404,7 +405,17 @@ section.frase :hover {
        
     }
 
+    .card {
+        width:49%;
+        margin: 0.5%;
+        display: flex;
+        
+}
 
-
+    .tarjetas{
+    justify-content: space-between;
+}
 
 }
+
+
