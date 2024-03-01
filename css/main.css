@@ -1,3 +1,57 @@
+* {
+  font-family: "Lato", sans-serif;
+}
 
+/* Estilos de la barra navegacion*/
+section img.logo {
+  display: flex;
+  width: 7rem;
+  height: auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header .navegacion {
+  background-color: #c61313;
+}
+header .navegacion .navbar-brand {
+  margin: 0%;
+}
+header .navegacion .navbar-brand img {
+  width: 100px;
+  height: 100px;
+}
+header .navegacion .navbar-nav {
+  flex-wrap: wrap;
+  align-items: center;
+}
+header .navegacion .navbar-nav .nav-link {
+  color: #e9e3dc;
+  border: solid;
+  border-color: #520202;
+}
+header .navegacion .navbar-nav .nav-link:hover {
+  color: #eeeceb;
+  background-color: #9e0808;
+}
+header .navegacion .navbar-nav .active {
+  color: #eeeceb;
+  background-color: rgba(85, 4, 4, 0.5);
+}
+header .navegacion .navbar-toggler {
+  flex-basis: auto;
+  justify-content: flex-end;
+  margin-bottom: 3%;
+}
+header .navbar-expand-lg .navbar-collapse {
+  flex-basis: auto;
+  justify-content: flex-end;
+}
+header .navbar-expand-lg .navbar-collapse:not(.show) {
+  display: none;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,15 @@
-//Partials//
+//PARTIALS//
+
+
+//reset
+@import './reset/vars';
+@import './reset/reset';
+@import './reset/layout';
+
+//estructura
 
 @import 'header';
 @import 'principal';
 @import 'footer';
+
+//mediaqueries

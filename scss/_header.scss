@@ -1,0 +1,75 @@
+//Todo el codigo correspondiente a header
+
+/* Estilos de la barra navegacion*/
+
+section img.logo{
+    display: flex;
+    width: 7rem;
+    height: auto;
+   
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .navegacion{
+        background-color:#c61313; 
+
+        .navbar-brand{
+            margin: 0%;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            
+        }
+
+        .navbar-nav {
+            flex-wrap: wrap;
+            align-items: center;
+
+            .nav-link {
+                color:#e9e3dc;
+                border:solid;
+                border-color: #520202;
+
+                &:hover{
+                    color:#eeeceb;
+                    background-color: #9e0808;
+                }
+               
+            }
+
+            .active{
+                color:#eeeceb;
+                background-color: rgba(85, 4, 4, 0.5);
+            }
+            
+        }
+       
+        .navbar-toggler{
+
+            flex-basis: auto;
+            justify-content: flex-end;
+            margin-bottom: 3%;
+        } 
+        
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        justify-content: flex-end;
+
+        &:not(.show) {
+            display: none;
+        }
+    }
+    
+}
+
+
+  
+    
+
