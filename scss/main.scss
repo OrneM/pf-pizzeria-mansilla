@@ -9,7 +9,11 @@
 //estructura
 
 @import 'header';
-@import 'principal';
+@import './principal-inicio';
+@import './principal-menu';
+@import './principal-pedidos';
+@import './principal-sucursales';
+@import'./principal-contacto';
 @import 'footer';
 
 //mediaqueries

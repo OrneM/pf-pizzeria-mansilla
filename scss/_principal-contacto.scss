@@ -1,0 +1,22 @@
+/*Estilos de principal contactos*/
+
+.fondo-de-contacto {
+    background-image: url(../assets/contacto.jpg);
+    background-size: cover;
+    color:#e9e3dc; 
+
+
+    .formulario-contacto {
+        height: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border: 1px solid rgb(120, 7, 7); 
+        border-radius: 5%; 
+        padding: 10%;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); 
+        background-color: rgba(224, 29, 29, 0.841);
+        font-weight: bold;
+       
+    }
+   
+}
