@@ -3,11 +3,11 @@
 
 .pie-pagina{
     display: flex;
-    flex-direction: row;
+
+    @include flex (row, none, space-evenly, stretch);
+    
     background-color:#525151; 
     color: #eeeceb;
-    justify-content: space-evenly;
-    align-items: stretch;
     padding-bottom: 2%;
     padding-top: 2%;
     border-top: 1px solid #5a0000;
