@@ -5,21 +5,33 @@
 
    .contenedor-pedido{
    
-    height: 40%;
-    margin-top: 10%;
-    margin-bottom: 15%;
-    border: 1px solid rgb(120, 7, 7); 
-    border-radius: 10px; 
-    padding: 10%;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    background-color: rgb(198, 19, 19,0.75); 
+      height: 40%;
+      margin-top: 10%;
+      margin-bottom: 15%;
+      border: 1px solid rgb(120, 7, 7); 
+      border-radius: 10px; 
+      padding: 10%;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      background-color: rgb(198, 19, 19,0.75); 
 
-    .title-pedido {
-        text-align: center;
-        color: #e9e3dc;
-        margin-bottom: 2em;
-        background-color: #ce1414;
-        background-color: rgb(198, 19, 19,0.75); 
+      .d-flex{
+         flex-direction: column;
+         margin-top:10% ;
+         margin-bottom: 10%; 
+
+         .title-pedido {
+            text-align: center;
+            color: #e9e3dc;
+            margin-bottom: 2em;
+            background-color: #ce1414;
+            background-color: rgb(198, 19, 19,0.75); 
+
+            //Boton sigue si andar
+               .btn-pizzeria{
+
+                  text-decoration:none;
+
+               }
         
      }
 
@@ -29,13 +41,4 @@
 
 
 }
-//Se rompieron los estilos del boton
-
-
- 
-
-
-   
-
-
-
+}

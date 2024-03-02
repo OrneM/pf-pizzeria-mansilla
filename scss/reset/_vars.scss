@@ -19,6 +19,15 @@ $box-shadow-btn: 0px 8px 16px rgba(0,0,0,0.2);
 $btn-hover-background-color:#ad0009;
 $btn-hover-text-color:#f7f6f4;
 
+//map boton
+$btn-proyect:(
+    fondo-color:$background-color-btn,
+    texto-color: $color-text-btn,
+    sombra: $box-shadow-btn,
+    fondo-hover: $btn-hover-background-color,
+    texto-hover:$btn-hover-text-color,
+);
+
 //pedidos
 
 $pedido-contenedor-background-color:rgb(198, 19, 19,0.75);
@@ -26,6 +35,9 @@ $pedido-contenedor-background-color:rgb(198, 19, 19,0.75);
 //footer
 $footer-background-color:#525151; 
 $footer-color-text: #eeeceb;
+
+
+
 
 
 
