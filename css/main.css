@@ -89,6 +89,10 @@ header .navegacion .navbar-brand {
 header .navegacion .navbar-brand img {
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+}
+header .navegacion .navbar-brand img:hover {
+  box-shadow: 0px 0px 10px 0 rgba(20, 20, 20, 0.2);
 }
 header .navegacion .navbar-nav {
   flex-wrap: wrap;
