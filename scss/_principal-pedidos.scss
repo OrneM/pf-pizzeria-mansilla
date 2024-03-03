@@ -12,7 +12,7 @@
       border-radius: 10px; 
       padding: 10%;
       box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-      background-color: rgb(198, 19, 19,0.75); 
+      background-color: $pedido-contenedor-background-color; 
 
       .d-flex{
          flex-direction: column;
@@ -24,21 +24,14 @@
             color: #e9e3dc;
             margin-bottom: 2em;
             background-color: #ce1414;
-            background-color: rgb(198, 19, 19,0.75); 
+            background-color: $pedido-contenedor-background-color; 
 
-            //Boton sigue si andar
-               .btn-pizzeria{
-
-                  text-decoration:none;
-
-               }
+         }
         
-     }
-
-
+      }
    
-  }
+   }
 
 
 }
-}
+

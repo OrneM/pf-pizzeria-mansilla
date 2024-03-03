@@ -31,20 +31,20 @@ header {
             align-items: center;
 
             .nav-link {
-                color:#e9e3dc;
+                color:$color-text-proyect;
                 border:solid;
                 border-color: #520202;
 
                 &:hover{
-                    color:#eeeceb;
-                    background-color: #9e0808;
+                    color:$navbar-hover-text-color;
+                    background-color:$navbar-hover-background-color;
                 }
                
             }
 
             .active{
-                color:#eeeceb;
-                background-color: rgba(85, 4, 4, 0.5);
+                color:$navbar-active-text-color;
+                background-color:$navbar-active-background-color;
             }
             
         }

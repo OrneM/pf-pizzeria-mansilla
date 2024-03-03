@@ -47,6 +47,27 @@
   padding-bottom: 5%;
 }
 
+.btn-pizzeria {
+  background-color: #ce1414;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 4%;
+  border: 1px rgba(82, 2, 2, 0.5) solid;
+}
+.btn-pizzeria:hover {
+  background-color: #ad0009;
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
+  color: #f7f6f4;
+}
+
 /* Estilos de la barra navegacion*/
 section img.logo {
   display: flex;
@@ -167,27 +188,7 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
 .tarjetas .card .card-body {
   padding: 5%;
 }
-.tarjetas .card .card-body .btn-pizzeria {
-  background-color: #ce1414;
-  border: none;
-  color: #ffffff;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  border-radius: 8px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  margin-top: 4%;
-  border: 1px rgba(82, 2, 2, 0.5) solid;
-}
-.tarjetas .card .card-body .btn-pizzeria:hover {
-  background-color: #ad0009;
-  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
-  color: #f7f6f4;
-}
-.tarjetas .card .card-img-top {
+.tarjetas .card-img-top {
   border-radius: 3%;
 }
 
@@ -217,9 +218,6 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   background-color: #ce1414;
   background-color: rgba(198, 19, 19, 0.75);
 }
-.fondo-de-pedidos .contenedor-pedido .d-flex .title-pedido .btn-pizzeria {
-  text-decoration: none;
-}
 
 /*Estilos de principal sucursales*/
 .fondo-de-sucursales {
@@ -235,25 +233,6 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   background-color: rgba(198, 19, 19, 0.75);
   width: 40%;
-}
-.fondo-de-sucursales .formulario-sucursal .btn-sucursal {
-  background-color: #ce1414;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  border-radius: 8px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  margin-top: 4%;
-  border: 1px rgba(82, 2, 2, 0.5) solid;
-}
-.fondo-de-sucursales .formulario-sucursal .btn-sucursal:hover {
-  background-color: #ad0009;
-  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
 }
 .fondo-de-sucursales .ratio {
   width: 40%;
@@ -304,6 +283,38 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   border-top: 1px solid #5a0000;
   padding-top: 2%;
   padding-bottom: 1%;
+}
+
+/*Media queries*/
+@media screen and (max-width: 600px) {
+  .pie-pagina {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: center;
+  }
+  .copyright {
+    padding-left: 3%;
+    text-align: center;
+  }
+  .contenedor-pie {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: none;
+    align-items: space-between;
+    display: flex;
+    width: 40%;
+    align-items: center;
+  }
+  .card {
+    width: 49%;
+    margin: 0.5%;
+    display: flex;
+  }
+  .tarjetas {
+    justify-content: space-between;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

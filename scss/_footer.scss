@@ -6,8 +6,8 @@
 
     @include flex (row, none, space-evenly, stretch);
     
-    background-color:#525151; 
-    color: #eeeceb;
+    background-color:$footer-background-color; 
+    color: $footer-color-text;
     padding-bottom: 2%;
     padding-top: 2%;
     border-top: 1px solid #5a0000;
@@ -17,7 +17,7 @@
 
         
             .social{
-                color: #eeeceb;
+                color: $footer-color-text;
             }
     }
     
@@ -25,8 +25,8 @@
 }
 
 .copyright {
-    background-color:#525151; 
-    color: #eeeceb;
+    background-color:$footer-background-color; 
+    color: $footer-color-text;
     text-align: center;
     border-top: 1px solid #5a0000;
     padding-top: 2%;

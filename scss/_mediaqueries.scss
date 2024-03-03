@@ -1,0 +1,40 @@
+/*Media queries*/
+
+@media screen and (max-width: 600px) {
+    
+    .pie-pagina  {
+        display:flex;
+        @include flex (column, none, none, center)
+     
+      
+       
+    }
+
+    .copyright {
+     
+        padding-left: 3%;
+        text-align: center;
+    }
+
+    .contenedor-pie {
+
+        @include flex (column, wrap, none, space-between);
+        display: flex;
+        width:40%;
+        align-items: center;
+        
+       
+    }
+
+    .card {
+        width:49%;
+        margin: 0.5%;
+        display: flex;
+        
+}
+
+    .tarjetas{
+    justify-content: space-between;
+}
+
+}

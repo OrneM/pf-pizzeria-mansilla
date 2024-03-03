@@ -6,6 +6,7 @@
 @import './reset/reset';
 @import './reset/mixin';
 @import './reset/layout';
+@import'./reset/btn-proyect';
 
 //estructura
 
@@ -18,3 +19,5 @@
 @import 'footer';
 
 //mediaqueries
+
+@import './mediaqueries';

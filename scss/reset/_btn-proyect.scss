@@ -1,0 +1,24 @@
+.btn-pizzeria{
+    background-color: map-get($btn-proyect, fondo-color ); 
+    ; 
+    border: none;
+    color :map-get($btn-proyect, texto-color );
+    padding: 15px 32px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; 
+    border-radius: 8px; 
+    box-shadow: map-get($btn-proyect, sombra );
+    margin-top: 4%;
+    border: 1px rgb(82, 2, 2, 0.5) solid;
+
+    &:hover {
+        background-color:map-get($btn-proyect, fondo-hover ); 
+        box-shadow: 0px 12px 20px rgba(0,0,0,0.4);
+        color:map-get($btn-proyect, texto-hover );
+
+    }
+
+}
