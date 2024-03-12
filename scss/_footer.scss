@@ -12,15 +12,34 @@
     padding-top: 2%;
     border-top: 1px solid #5a0000;
 
+
     .contenedor-pie {
+
         width: 25%;
 
-        
+            .titulo-pie {
+                font-size: large;
+                font-weight: 600;
+            }
+            
             .social{
                 color: $footer-color-text;
             }
-    }
-    
+
+            .logo-red {
+                width: 30px;
+                height: 30px;
+            }
+
+            .mb-1{
+                display: flex;
+
+                .tit-red {
+                    margin-left: 5%;
+                }
+                
+            }
+    }   
     
 }
 

@@ -21,7 +21,13 @@
         @include flex (column, wrap, none, space-between);
         display: flex;
         width:40%;
-        align-items: center;
+        margin-top: 5%;
+        align-items: start;
+
+         .mb-1{
+            width: 158px;
+            height: 40px;
+         }
         
        
     }

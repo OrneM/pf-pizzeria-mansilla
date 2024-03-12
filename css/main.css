@@ -276,8 +276,22 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
 .pie-pagina .contenedor-pie {
   width: 25%;
 }
+.pie-pagina .contenedor-pie .titulo-pie {
+  font-size: large;
+  font-weight: 600;
+}
 .pie-pagina .contenedor-pie .social {
   color: #eeeceb;
+}
+.pie-pagina .contenedor-pie .logo-red {
+  width: 30px;
+  height: 30px;
+}
+.pie-pagina .contenedor-pie .mb-1 {
+  display: flex;
+}
+.pie-pagina .contenedor-pie .mb-1 .tit-red {
+  margin-left: 5%;
 }
 
 .copyright {
@@ -309,7 +323,12 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
     align-items: space-between;
     display: flex;
     width: 40%;
-    align-items: center;
+    margin-top: 5%;
+    align-items: start;
+  }
+  .contenedor-pie .mb-1 {
+    width: 158px;
+    height: 40px;
   }
   .card {
     width: 49%;
