@@ -1,6 +1,4 @@
 /*Estilos de footer*/
-
-
 .pie-pagina{
     display: flex;
 
@@ -14,31 +12,28 @@
 
 
     .contenedor-pie {
-
         width: 25%;
-
-            .titulo-pie {
-                font-size: large;
-                font-weight: 600;
-            }
+        .titulo-pie {
+            font-size: large;
+            font-weight: 600;
+        }
             
-            .social{
-                color: $footer-color-text;
-            }
+        .social{
+            color: $footer-color-text;
+        }
 
-            .logo-red {
-                width: 30px;
-                height: 30px;
-            }
+        .logo-red {
+            width: 30px;
+            height: 30px;
+        }
 
-            .mb-1{
-                display: flex;
-
+        .mb-1{
+            display: flex;
                 .tit-red {
                     margin-left: 5%;
                 }
                 
-            }
+        }
     }   
     
 }

@@ -8,6 +8,7 @@
     .formulario-sucursal {
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         border: 1px solid rgb(120, 7, 7); 
         border-radius: 10px; 
         padding: 3%;

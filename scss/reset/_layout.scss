@@ -1,44 +1,32 @@
 /*Estructura de inicio*/
-
 .inicio {
     display:flex;
-
     @include flex (column, nowrap, center, center);
-   
-    
 }
 
 /*Estructura de menu*/
-
 .tarjetas {
     display: flex;
-
     @include flex (row, wrap, center, none);
-    
 }
 
 /*Estructura de pedidos*/
-
 .fondo-de-pedidos {
     display: flex;
-
     @include flex (row, wrap, center, none);
-
 }
 
 /*Estructura de sucursales*/
-
 .fondo-de-sucursales {
     display: flex;
-
-    @include flex (none, wrap,  space-evenly, none);    
-   
+    @include flex (row-reverse, wrap,  space-evenly, none);    
     padding-top: 5%;
     padding-bottom: 10%;
 }
 
 /*Estructura de contacto*/
 .fondo-de-contacto {
+    display: flex;
     text-align: center;
     padding-top:5%;
     padding-bottom: 5%;

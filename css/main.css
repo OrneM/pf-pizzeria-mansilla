@@ -32,7 +32,7 @@
 /*Estructura de sucursales*/
 .fondo-de-sucursales {
   display: flex;
-  flex-direction: none;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: none;
@@ -42,6 +42,7 @@
 
 /*Estructura de contacto*/
 .fondo-de-contacto {
+  display: flex;
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -151,13 +152,13 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   padding-right: 2%;
   padding-left: 2%;
   justify-content: center;
-  width: 50%;
 }
 
 .frase {
   display: flex;
   background-color: #c61313;
   color: #e9e3dc;
+  font-size: larger;
   text-align: center;
   flex-direction: column;
   border-radius: 8px;
@@ -171,7 +172,9 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   justify-content: center;
   width: 50%;
   margin-bottom: 20%;
-  font-size: large;
+}
+.frase .contenido {
+  font-size: 26px;
 }
 .frase:hover {
   transform: scale(1.05);
@@ -231,6 +234,7 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
 .fondo-de-sucursales .formulario-sucursal {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   border: 1px solid rgb(120, 7, 7);
   border-radius: 10px;
   padding: 3%;
@@ -249,15 +253,45 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   color: #e9e3dc;
 }
 .fondo-de-contacto .formulario-contacto {
-  height: 40%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  height: 80%;
+  width: 90%;
+  margin: 5%;
   border: 1px solid rgb(120, 7, 7);
   border-radius: 5%;
   padding: 10%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   background-color: rgba(224, 29, 29, 0.841);
   font-weight: bold;
+}
+.fondo-de-contacto .formulario-contacto .tit-form {
+  padding: 2%;
+  border-bottom: 1px solid rgb(120, 7, 7);
+}
+.fondo-de-contacto .caja {
+  position: fixed;
+}
+.fondo-de-contacto .caja .icono-wsp {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  z-index: 1000;
+  background-color: rgba(9, 235, 58, 0.806);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fondo-de-contacto .caja .icono-wsp:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(9, 37, 0, 0.813);
+}
+.fondo-de-contacto .caja .icono-wsp .bi-whatsapp {
+  width: 30px;
+  height: 30px;
+  color: #e9e3dc;
 }
 
 /*Estilos de footer*/
@@ -305,12 +339,49 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
 
 /*Media queries*/
 @media screen and (max-width: 600px) {
+  .inicio section.descripcion {
+    width: 85%;
+  }
+  .frase {
+    width: 85%;
+  }
   .pie-pagina {
     display: flex;
     flex-direction: column;
     flex-wrap: none;
     justify-content: none;
     align-items: center;
+  }
+  .fondo-de-sucursales {
+    flex-direction: column-reverse;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: center;
+  }
+  .fondo-de-sucursales .ratio {
+    width: 60%;
+    margin-top: 5%;
+  }
+  .fondo-de-sucursales .formulario-sucursal {
+    width: 60%;
+  }
+  .fondo-de-contacto {
+    flex-direction: column;
+  }
+  .fondo-de-contacto .caja {
+    bottom: 100px;
+    right: 40px;
+    width: 100px;
+    height: 100px;
+  }
+  .fondo-de-contacto .caja .icono-wsp {
+    bottom: 200px;
+    right: 30px;
+  }
+  .fondo-de-contacto .formulario-contacto {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
   }
   .copyright {
     padding-left: 3%;

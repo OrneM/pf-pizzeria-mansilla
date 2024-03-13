@@ -1,46 +1,81 @@
 /*Media queries*/
 
 @media screen and (max-width: 600px) {
+
+    .inicio {
+         section.descripcion{ 
+            width: 85%;
+        }
+}
     
+    .frase {
+        width: 85%;
+    }
+
     .pie-pagina  {
         display:flex;
-        @include flex (column, none, none, center)
-     
-      
-       
+        @include flex (column, none, none, center);
+    }
+
+    .fondo-de-sucursales {
+        @include flex (column-reverse, none, none, center);
+        
+        .ratio {
+            width: 60%;
+            margin-top: 5%;
+        }
+
+        .formulario-sucursal{
+            width: 60%;
+        }   
+    }
+
+    .fondo-de-contacto {
+        flex-direction: column;
+        .caja {
+            bottom: 100px; 
+            right: 40px; 
+            width: 100px;
+            height: 100px;
+            .icono-wsp {
+                bottom: 200px; 
+                right: 30px;
+            }
+        }
+
+        .formulario-contacto {
+        height: 80%;
+        width: 80%;
+        margin-left: 10%;
+        }   
+        
     }
 
     .copyright {
-     
         padding-left: 3%;
         text-align: center;
     }
 
     .contenedor-pie {
-
         @include flex (column, wrap, none, space-between);
         display: flex;
         width:40%;
         margin-top: 5%;
         align-items: start;
 
-         .mb-1{
+        .mb-1{
             width: 158px;
             height: 40px;
-         }
-        
-       
+        }      
     }
 
     .card {
         width:49%;
         margin: 0.5%;
-        display: flex;
-        
-}
+        display: flex;       
+    }
 
     .tarjetas{
-    justify-content: space-between;
-}
-
+        justify-content: space-between;
+    }                
 }
