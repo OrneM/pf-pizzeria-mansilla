@@ -158,7 +158,6 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   display: flex;
   background-color: #c61313;
   color: #e9e3dc;
-  font-size: larger;
   text-align: center;
   flex-direction: column;
   border-radius: 8px;
@@ -174,7 +173,7 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
   margin-bottom: 20%;
 }
 .frase .contenido {
-  font-size: 26px;
+  font-size: 22px;
 }
 .frase:hover {
   transform: scale(1.05);
@@ -201,7 +200,7 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
 
 /*Estilos de principal pedidos*/
 .fondo-de-pedidos {
-  background-image: url(../assets/pedido.png);
+  background-image: url(../assets/pedido.webp);
 }
 .fondo-de-pedidos .contenedor-pedido {
   height: 40%;
@@ -248,7 +247,7 @@ header .navbar-expand-lg .navbar-collapse:not(.show) {
 
 /*Estilos de principal contactos*/
 .fondo-de-contacto {
-  background-image: url(../assets/contacto.jpg);
+  background-image: url(../assets/contacto.webp);
   background-size: cover;
   color: #e9e3dc;
 }
